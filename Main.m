@@ -3,7 +3,7 @@
 % When using this code cite:
 % "H. Rajahrajasingh and S. Edirisinghe, "The Feasibility of Visible Light Communication for Deep Sea Communication," 2023 IEEE 17th International Conference on Industrial and Information Systems (ICIIS), Peradeniya, Sri Lanka, 2023, pp. 152-157, doi: 10.1109/ICIIS58898.2023.10253505."
 
-% Code uses BPSK modulation scheme and Gamma-Gamma turbulence model
+% Code uses OOK modulation scheme and Gamma-Gamma turbulence model
 % Change alpha and beta value as per need
 
 
