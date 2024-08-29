@@ -63,7 +63,7 @@ for i = 1:num_points
         
         H = Hg*Hturb*Ha;
         
-        tx_symbols = 2*tx_bits-1;
+        tx_symbols = tx_bits; % On-Off keying modulation [1=>1, 0=>0]
 
         % Add complex AWGN noise
         noise = (1 / sqrt(2 * SNR(i))) * (randn(1, num_bits) + 1i * randn(1, num_bits));
